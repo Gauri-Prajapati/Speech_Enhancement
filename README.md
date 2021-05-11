@@ -12,6 +12,7 @@ This folder contains a main file and two folders, namely algorithms and eval_scr
        spec_sub_noise.m     (with ‘i_mcra’ method)   Improved minimum controlled recursive average algorithm [4]
     3. wiener_aprior.m   Wiener filter with a priori estimation [5]
     4. log_mmse.m   Log amplitude MMSE estimator [6]
+    5. CycleGAN-based SE (A folder containing samples of clean, noisy, and enhanced speech signals)
 • ‘eval_scripts’ folder contains python scripts to evaluate enhanced wav files using PESQ scores.
 
     • make_clean_noise_pair.py: To make pairs of clean and corresponding noisy (or enhanced) wav files.
