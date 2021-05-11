@@ -2,7 +2,7 @@
 Speech enhancement (SE) algorithm is used to remove noise from the noisy speech signal. There are various signal processing and deep learning-based methods available for SE. Here, signal processing-based methods are considered. No need of training for signal processing approaches. The methods were implemented on 8 kHz sampling frequency. However, it will work on any sampling frequency.
 This folder contains a main file and two folders, namely algorithms and eval_scripts.
 
-# Main file and it’s requirements: -
+# Contents: -
     • main.m contains code to test the enhancement approach on test set of the dataset (i.e., in our case, Noisy Speech database [1]).
     • The wav files can be resampled using resampled_wavs.m file.
 • ‘algorithm’ folder contains various speech enhancement algorithms listed below.
